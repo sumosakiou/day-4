@@ -1,5 +1,5 @@
 /**
-```javascript
+ * javascript
  * JOUR 04 — GUIDE 02
  * Parcourir avec for...of
  *
@@ -11,4 +11,10 @@
 'use strict';
 
 // TODO: écris ta solution ici.
-  
+  const notes = [12,15,8,19];
+  let somme = 0;
+    for (const note of notes) {
+      somme += note;
+    }
+    const moyenne = somme / notes.length;
+    console.log(moyenne);

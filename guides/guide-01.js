@@ -11,5 +11,5 @@
 
 // TODO: écris ta solution ici.
 const fruits = ["pomme", "Banane", "orange"];
-fruits[1] = "Mangue";
+fruits[2] = "Mangue";
 console.log(fruits[fruits.length - 1]);
