@@ -16,3 +16,5 @@
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
 invité
+const invites = [];
+invites
