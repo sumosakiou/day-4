@@ -15,5 +15,14 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
-function doublons[tableauu]
-let
+function doublons(tableau){
+    let cleanArr = [];
+    for (let i = 0; i < tableau.length; i++){
+        if (!cleanArr.includes(tableau[i]))
+            cleanArr.push(tableau[i])
+}
+
+return cleanArr;
+}
+let nombre = [1, 2, 2, 3, 4, 4, 5] 
+console.log(doublons(nombre))
