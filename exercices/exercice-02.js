@@ -16,7 +16,7 @@
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
 const invites = [];
-invites.unshift("Yassine");
-invites.unshift("Sara");
-invites.unshift("Amine");
+invites.push("Yassine");
+invites.push("Sara");
+invites.push("Amine");
 console.log(invites)

@@ -15,3 +15,8 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+let group1 = ["A","B"]
+let groupe2 = ["C", "D"]
+let groupe3 = [...group1, ...groupe2]
+
+console.log(groupe3);

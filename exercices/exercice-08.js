@@ -14,4 +14,20 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+function parcourant(tableau){
+    let grand = tableau[0];
+    let petit = tableau[0];
+ for (let num of tableau){
+       if (num > grand ){
+           grand = num;
+       }else if(num < petit){
+               petit = num;
+       }
+
+    }
+    console.log(grand)
+    console.log(petit)
+}
+
+parcourant([19,67,69,50,1])
