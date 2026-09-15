@@ -15,5 +15,19 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
-function sontEgaux(tab1, tab2)
-let 
+function sontEgaux(tab1, tab2){
+
+ if (tab1.length !== tab2.length){
+    return false;
+}
+  for (let i = 0; i < sontEgaux.length ; i++){
+    if (tab1[i] !== tab2[i]){
+
+    return false;
+    }    
+}
+return true;
+}
+const tab3 = [1,2,1]
+const tab4 = [1,2,1]
+console.log(sontEgaux(tab3,tab4));

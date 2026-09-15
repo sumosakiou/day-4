@@ -15,3 +15,12 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+function decalerADroitePure(tab){
+    if (tab.length === 0) return tab;
+    const dernier = tab.pop();
+    tab.unshift(dernier);
+        return tab;
+}
+const monTableau = [1 , 2 , 3];
+decalerADroitePure(monTableau);
+console.log(monTableau)
